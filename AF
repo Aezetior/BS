@@ -1,0 +1,7 @@
+_G.Auto = true
+while _G.Auto do
+wait()
+local A_1 = 6
+local Event = game:GetService("ReplicatedStorage").Systems.Clicking.RemoteEvents.Aezetior
+Event:FireServer(A_1)
+end
